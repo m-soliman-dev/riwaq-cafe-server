@@ -234,3 +234,9 @@ input,select,textarea{background:#080604!important;color:#f7f0e2!important;borde
 input:focus,select:focus,textarea:focus{border-color:var(--gold)!important;outline:0;box-shadow:0 0 0 3px rgba(240,194,75,.2)}
 footer{background:#000!important;border-top:1px solid #3a2c0e}
 ::selection{background:#f0c24b;color:#000}
+
+/* bigger logo */
+.brand img{height:64px!important}
+.hero .hlogo{height:150px!important}
+#footer img{height:96px!important}
+@media(max-width:800px){.brand img{height:50px!important}.hero .hlogo{height:104px!important}}
